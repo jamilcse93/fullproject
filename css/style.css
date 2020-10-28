@@ -1,0 +1,122 @@
+.navbar{
+  background: #000;
+
+}
+.navbar .nav-item{
+  padding-left: 1em !important;
+
+}
+.navbar .nav-link{
+  text-transform: uppercase;
+}
+
+.carousel-item{
+  min-height: 450px;
+}
+.carousel-img-1{
+  background: url(../img/image1.jpeg);
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url(../img/image2.jpeg);
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url(../img/image3.jpeg);
+  background-size: cover;
+}
+
+
+#homeicon .fa{
+  font-size: 50px;
+}
+#getstart{
+  background: url(../img/bg1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#getstart .dark-overlaly{
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#vedio-section{
+  background: url(../img/people.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#vedio-section .dark-overlaly{
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+#vedio-section .fa{
+  color: #ff0000;
+  font-size: 38px;
+}
+#gellery img{
+ min-height: 250px;
+}
+#copyright{
+  background: #000;
+}
+#about{
+  background: url(../img/image1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+}
+#aboutus img{
+
+width: 250px;
+height: 250px;
+
+}
+#info-icon .fas, .fab{
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+..slick-prev, .slick-next{
+  color:#000;
+}
+#services{
+  background: url(../img/image2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+}
+#blog-section{
+  background: url(../img/image6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+
+}
+#blog-main img{
+  min-height: 250px;
+  border: 3px solid #DA9E9D;
+  border-radius: 3px;
+}
+@media (max-width:768px) {
+  .navbar .nav-item{
+    padding-left: 0em !important;
+
+  }
+}
